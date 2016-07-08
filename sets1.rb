@@ -10,4 +10,8 @@ class TestSets1 < Test::Unit::TestCase
     expect = 'SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t'
     assert_equal expect, actual
   end
+
+  # http://cryptopals.com/sets/1/challenges/2
+  def test_fixed_xor
+  end
 end
